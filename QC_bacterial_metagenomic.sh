@@ -117,7 +117,7 @@ try:
 			output.write("mv "+path+run+"/"+run+"_cutadapt_firstDeduplicationMerged.log_2022.txt "+path+"log_files_2022;\n")
 			output.write("mv "+path+run+"/"+run+"_cutadapt_secondDeduplication.log_2022.txt "+path+"log_files_2022;\n")
 			output.write("mv "+path+run+"/"+run+"_cutadapt_secondDeduplication_filtered.log_2022.txt "+path+"log_files_2022;\n")
-			#output.write("blastx -db /scratch/ekaelin/RefSeqPlusNeighborSeq_2020ViralNR/RefSeqPlusNeighbor2020 -query "+path+run+"/"+run+"_cutadapt_secondDeduplication_filtered_2022.fasta -evalue 1e-3 -num_threads 56 -out "+path+run+"/"+run+"_cutadapt_secondDeduplication_filtered.blastx_2022.out;\n")
+			
 
 except (ValueError, NameError): 
 		print("No path given in sample file")
