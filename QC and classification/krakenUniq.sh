@@ -1,0 +1,5 @@
+## install krakenUniq 
+#!/bin/bash
+mkdir /path/to/krakenUniq/directory;
+krakenuniq --preload --threads _ --db /path/to/krakenuniqDB --report-file /path/to/fastq/qc_fasta_2022/krakenuniq/file_krakenuniq_report.txt --output /path/to/fastq/qc_fasta_2022/krakenuniq/file_krakenuniq_output.txt /path/to/fastq/qc_fasta_2022/file_cutadapt_secondDeduplication_filtered_2022.fasta 1> /mnt/storage/ayla/Ganymede319/fastq/qc_fasta_2022/krakenuniq/I96193_krakenuniq_log.txt 2>&1;
+krakenuniq --threads 88 --db /path/to/krakenuniqDB --report-file /path/to/fastq/qc_fasta_2022/krakenuniq/file_krakenuniq_report.txt --output /path/to/fastq/qc_fasta_2022/krakenuniq/file_krakenuniq_output.txt /path/to/fastq/qc_fasta_2022/file_cutadapt_secondDeduplication_filtered_2022.fasta 1> /path/to/fastq/qc_fasta_2022/krakenuniq/file_krakenuniq_log.txt 2>&1;
