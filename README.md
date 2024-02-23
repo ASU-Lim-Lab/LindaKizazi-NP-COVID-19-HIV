@@ -1,5 +1,5 @@
 # Nasopharyngeal microbiome in SARS-CoV-2 infected women and infants
-This repository contains code for the manuscript **Longitudinal dynamics of the nasopharyngeal microbiome in response to SSARS-coV-2 Omicron variant and HIV infection in Kenyan women and their infants**.
+This repository contains code for the manuscript **Longitudinal dynamics of the nasopharyngeal microbiome in response to SARS-CoV-2 Omicron variant and HIV infection in Kenyan women and their infants**.
 ***
 
 ### Contents: 
